@@ -1,0 +1,21 @@
+.listMovies{
+    width: 100%; 
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+
+/* CAMBIOS EN CSS convertir UL u LI a <div> para poder usar la propiedad "display: flex" en el elemento padre. 
+
+investigar el atributo "over flow" 
+quitar overflow-x de .listRow
+ponerle numerito a cada Li para ver como se afectaron los div hijos
+
+poner margen a .movie
+cual es la diferencia entre margin y padding? 
+añadirles flex'drection: row 
+justify-content: center 
+
+
+flex ajusa el contenido a mi container 
+Box me deja tener mas contenido y scrollear para mostrar mas, estilo carrousell. 
